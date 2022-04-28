@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/estilos.css" type="text/css">
+  <link rel="stylesheet" href="css/app.css" type="text/css"> 
+ 
+	<title>Registrate</title>
+</head>
+<body>
+  <header>
+		<div class="contenedor">
+			<h1 class=""> MacondoLab</h1>
+			<input type="checkbox" id="menu-bar">
+			<label class="icon-menu" for="menu-bar"></label>
+			<nav class="menu">
+				<a href="index.html"> Inicio</a>
+				<a href="nosotros.html"> Nosotros</a>
+				<a href="contacto.html"> Contacto</a>
+				<a href="registrar.html"> Registrate</a>
+			</nav>
+		</div>
+	</header>
+  
+
+   
+  
+    <p class="v69_6">Registro Emprendedores Unisimon</p>
+    
+    <form action="">
+      <label class="v69_7">Saludo:</label>
+      <select class="v73_2" id="programaAcademico">
+        <option value="0">Seleccione:</option>
+        <option value="1">Señor</option>
+        <option value="2">Señora</option>
+      </select> 
+       <label class="v69_10">Nombre:</label>
+       <input type="text" class="v73_3" id="nombre" placeholder="Ingrese Nombre" name="nombre" required>
+       <label class="v69_13">Apellido:</label>
+       <input type="text" class="v131_2" id="apellido" placeholder="Ingrese Apellido" name="apellido" required>
+       <label class="v69_14">Fecha de Nacimiento:</label> 
+      
+       <label class="v69_15">Edad:</label>
+       <input type="text" class="v73_6" id="edad" placeholder="Ingrese edad" name="edad" required>
+       <label class="v69_16">Movil:</label>
+       <input type="text" class="v73_7" id="edad" placeholder="Ingrese Movil" name="movil" required>
+       <label class="v69_23">Tel Oficina:</label>
+       <input type="text" class="v73_8" id="telefono" placeholder="Ingrese Telefono Oficina" name="oficina" required>
+       <label class="v69_24">Correo Electronico:</label>
+       <input type="text" class="v73_9" id="correo" placeholder="Ingrese Correo Electronico" name="correo" required>
+       <label class="v69_25">Programa Academico:</label>
+       <select class="v73_10" id="programaAcademico">
+        <option value="0">Seleccione Programa Academico:</option>
+        <option value="1">Ingeniería de Sistemas</option>
+        <option value="2">Ingeniería Industrial</option>
+        <option value="3">Derecho</option>
+        <option value="4">Psicología</option>
+      </select> 
+      <label  class="v69_36 v69_35">DATOS DEL EMPRENDIMIENTO</label>
+      <input type="text" class="v73_11" id="emprendimiento" placeholder="Ingrese datos de emprendimiento" name="emprendimiento" required>
+      <label  class="v69_37"> Esta registrado mi emprendimiento</label>
+      <select class="v73_12" id="register">
+        <option value="0">Seleccione:</option>
+        <option value="1">Si</option>
+        <option value="2">No</option>    
+      </select>
+      <label  class="v69_46">Trabaja Actualmente</label>
+      <select class="v73_13" id="register">
+        <option value="0">Seleccione:</option>
+        <option value="1">Si</option>
+        <option value="2">No</option>
+      </select>
+      <label  class="v69_47">Nombre del Emprendimiento</label>
+      <input type="text" class="v73_14" id="nombEmprendimiento" placeholder="Ingrese datos de emprendimiento" name="nomEmprendimiento" required>
+      <label  class="v69_48">Interesado en Emprender</label>
+      <select class="v73_15" id="trabaja">
+        <option value="0">Seleccione:</option>
+        <option value="1">Si</option>
+        <option value="2">No</option>
+      </select>
+      <label  class="v69_49">Empleado o Independiente</label>
+      <select class="v73_15" id="EmpoInd">
+        <option value="0">Seleccione:</option>
+        <option value="1">Empleado</option>
+        <option value="2">Independiente</option>
+      </select>
+      <label  class="v69_50">Tiene alguna idea de emprendimiento</label>
+      <select class="v73_16" id="idea">
+        <option value="0">Seleccione:</option>
+        <option value="1">Si</option>
+        <option value="2">No</option>
+      </select>
+      <label  class="v69_51">Tipo de emprendimiento</label>
+      <select class="v73_17" id="tipo">
+        <option value="0">Seleccione:</option>
+        <option value="1">Ninguna</option>
+        <option value="2">Base Tecnologíca</option>
+        <option value="3">Servicios</option>
+        <option value="4">Producto</option>
+        <option value="5">Innovacion Social</option>
+      </select>
+      <label  class="v69_52">Nivel de emprendimiento</label>
+      <select class="v73_18" id="emprendimiento">
+        <option value="0">Seleccione:</option>
+        <option value="1">Emprendimiento I</option>
+        <option value="2">Emprendimiento II</option>
+        <option value="3">Emprendimiento III</option>
+      </select>
+      <label  class="v69_53">Escolaridad</label>
+      <select class="v73_19" id="escolaridad">
+        <option value="0">Seleccione:</option>
+        <option value="1">Ninguno</option>
+        <option value="2">Bachiller</option>
+        <option value="3">Tecnico</option>
+        <option value="4">Tecnologo</option>
+        <option value="5">Profesional</option>
+        <option value="6">Postgrado</option>
+      </select>
+      <label  class="v69_54">Descripcion del emprendimiento</label>
+      <input type="text" class="v73_20" id="nombEmprendimiento" placeholder="Ingrese Descripcion de emprendimiento" name="nomEmprendimiento" required>
+      <input type="date" class="v73_5" id="prestamo" name="prestamo" value="1960-01-01"   min="2000-01-01" max="2024-12-31">
+      <button type="submit" class="v69_57">REGISTRAR</button>
+   </form>  
+  
+</body>
+</html>  
+  
